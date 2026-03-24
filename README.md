@@ -1,18 +1,22 @@
 🎵 AI Mood-Based Music Player
 > Detect your mood using AI and automatically play music on Spotify 🎶
+> 💡 An intelligent system that bridges human emotions with music using AI.
 
-📌 Overview
+##📌 Overview
+
 This project is an AI-powered desktop application that detects a user's mood using facial recognition and automatically plays a matching Spotify playlist.
 It combines computer vision, deep learning, and music streaming to create an interactive and personalized experience.
 
-🎬 Demo video
-https://drive.google.com/file/d/1Quv9Y7HV3oiFpFRAbThO2UhQKg5fnsGu/view?usp=sharing
+##🎬 **Demo Video:**  
+[Watch here]([https://drive.google.com/...](https://drive.google.com/file/d/1Quv9Y7HV3oiFpFRAbThO2UhQKg5fnsGu/view?usp=sharing))
 
-🖼️ Preview
+
+##🖼️ Preview
 ![App Screenshot](https://github.com/user-attachments/assets/bda99070-429e-44e0-aab1-cf3c13ed7243)
 > Real-time mood detection using webcam and Spotify integration 🎥🎶
 
-🚀 Features
+##🚀 Features
+
 - 🎥 Real-time face capture using webcam
 - 😊 Mood detection using DeepFace (AI model)
 - 🎶 Automatic Spotify playlist recommendation
@@ -22,6 +26,7 @@ https://drive.google.com/file/d/1Quv9Y7HV3oiFpFRAbThO2UhQKg5fnsGu/view?usp=shari
 - 🎛️ Manual mood selection option
 - 
 ## 🛠️ Tech Stack
+
 - Python
 - OpenCV (Computer Vision)
 - TensorFlow / Keras
@@ -32,15 +37,15 @@ https://drive.google.com/file/d/1Quv9Y7HV3oiFpFRAbThO2UhQKg5fnsGu/view?usp=shari
 - Matplotlib (Visualization)
 - pyttsx3 (Text-to-Speech)
 
-📂 Project Structure
+## 📂 Project Structure
 
 AI_Music_Project/
-│── mood_music.py # Main application
-│── mood_history.csv # Stores mood logs
-│── captured_face.jpg # Captured image
-│── Project Demo.mp4 # Demo video (optional)
+│── mood_music.py
+│── mood_history.csv
+│── captured_face.jpg
+│── Project Demo.mp4
 
-⚙️ Setup Instructions
+##⚙️ Setup Instructions
 
 1️⃣ Clone the repository
 ```bash
@@ -58,7 +63,8 @@ SPOTIPY_REDIRECT_URI = "http://127.0.0.1:8888/callback"
 4️⃣ Run the application
 python mood_music.py
 
-🧠 How It Works
+##🧠 How It Works
+
 Webcam captures user's face
 DeepFace analyzes facial expression
 Dominant emotion is detected (happy, sad, etc.)
@@ -66,25 +72,30 @@ Spotify API searches for playlists based on mood
 Playlist opens automatically in browser
 Mood is stored for future analysis
 
-📊 Mood History Visualization
+##📊 Mood History Visualization
+
 Stores moods in mood_history.csv
 Displays a bar chart showing mood frequency
 
-🔊 Voice Feedback
+##🔊 Voice Feedback
+
 Uses pyttsx3 to announce detected mood
 
-⚠️ Important Notes
+##⚠️ Important Notes
+
 Requires a working webcam
 Internet connection needed for Spotify
 Spotify login may be required on first run
 
-🚧 Future Improvements
+##🚧 Future Improvements
+
 🎨 Better UI design
 🎵 Direct Spotify playback integration
 🤖 Improved emotion accuracy
 📱 Mobile or web version
 
-🛠️ Troubleshooting
+##🛠️ Troubleshooting
+
 ❌ Error: TensorFlow / Keras Compatibility Issue
 ValueError: You have tensorflow 2.21.0 and this requires tf-keras package.
 Please run pip install tf-keras or downgrade your tensorflow.
@@ -106,7 +117,8 @@ pip install tensorflow==2.12 keras==2.12
 ```bash
 pip install tensorflow==2.12 --index-url https://pypi.org/simple
 
-⚠️ Tip
+##⚠️ Tip
+
 Always use a virtual environment to avoid dependency conflicts:
 
 python -m venv venv
@@ -123,8 +135,17 @@ Ensure proper lighting
 Face should be clearly visible to webcam
 
 OR use Python 3.10 (best compatibility)
-👩‍💻 Author
-Suhani
+
+##💡 Pro tip
+
+If errors keep coming one by one, fastest way:
+pip install -r requirements.txt
+
+## 👩‍💻 Author
+ 
+**Suhani Mahajan**  
+[![GitHub](https://github.com/suhani2810)  
+[![LinkedIn](https://www.linkedin.com/in/suhani-mahajan-2431b8328/)
 
 ⭐ If you like this project
 
