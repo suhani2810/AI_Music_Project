@@ -1,7 +1,16 @@
 🎵 AI Mood-Based Music Player
+> Detect your mood using AI and automatically play music on Spotify 🎶
+
 📌 Overview
 This project is an AI-powered desktop application that detects a user's mood using facial recognition and automatically plays a matching Spotify playlist.
 It combines computer vision, deep learning, and music streaming to create an interactive and personalized experience.
+
+🎬 Demo video
+https://drive.google.com/file/d/1Quv9Y7HV3oiFpFRAbThO2UhQKg5fnsGu/view?usp=sharing
+
+🖼️ Preview
+![App Screenshot](https://github.com/user-attachments/assets/bda99070-429e-44e0-aab1-cf3c13ed7243)
+> Real-time mood detection using webcam and Spotify integration 🎥🎶
 
 🚀 Features
 - 🎥 Real-time face capture using webcam
@@ -75,6 +84,45 @@ Spotify login may be required on first run
 🤖 Improved emotion accuracy
 📱 Mobile or web version
 
+🛠️ Troubleshooting
+❌ Error: TensorFlow / Keras Compatibility Issue
+ValueError: You have tensorflow 2.21.0 and this requires tf-keras package.
+Please run pip install tf-keras or downgrade your tensorflow.
+💡 Cause
+This happens because newer versions of TensorFlow (2.21+) are not fully compatible with some dependencies used by DeepFace (like RetinaFace).
+
+✅ Solution 1 (Recommended)
+Install the required compatibility package:
+
+```bash
+pip install tf-keras
+✅ Solution 2 (Alternative)
+
+Downgrade TensorFlow to a compatible version:
+
+pip install tensorflow==2.12 keras==2.12
+
+👉 If this happens again, use:
+```bash
+pip install tensorflow==2.12 --index-url https://pypi.org/simple
+
+⚠️ Tip
+Always use a virtual environment to avoid dependency conflicts:
+
+python -m venv venv
+venv\Scripts\activate
+❌ Error: Webcam not opening
+Make sure no other app is using the camera
+Check camera permissions
+❌ Error: Spotify not opening
+Ensure internet connection is active
+Login to Spotify in your browser
+Check API credentials
+❌ Error: No face detected
+Ensure proper lighting
+Face should be clearly visible to webcam
+
+OR use Python 3.10 (best compatibility)
 👩‍💻 Author
 Suhani
 
