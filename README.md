@@ -8,7 +8,7 @@ This project is an AI-powered desktop application that detects a user's mood usi
 It combines computer vision, deep learning, and music streaming to create an interactive and personalized experience.
 
 ##🎬 **Demo Video:**  
-[Watch here]([https://drive.google.com/...](https://drive.google.com/file/d/1Quv9Y7HV3oiFpFRAbThO2UhQKg5fnsGu/view?usp=sharing))
+https://drive.google.com/file/d/1Quv9Y7HV3oiFpFRAbThO2UhQKg5fnsGu/view?usp=sharing
 
 
 ##🖼️ Preview
@@ -41,8 +41,11 @@ It combines computer vision, deep learning, and music streaming to create an int
 
 AI_Music_Project/
 │── mood_music.py
+
 │── mood_history.csv
+
 │── captured_face.jpg
+
 │── Project Demo.mp4
 
 ##⚙️ Setup Instructions
