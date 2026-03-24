@@ -40,6 +40,7 @@ https://drive.google.com/file/d/1Quv9Y7HV3oiFpFRAbThO2UhQKg5fnsGu/view?usp=shari
 ## 📂 Project Structure
 
 AI_Music_Project/
+
 │── mood_music.py
 
 │── mood_history.csv
