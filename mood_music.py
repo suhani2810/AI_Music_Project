@@ -27,8 +27,8 @@ def speak_async(text):
     threading.Thread(target=run_speech, daemon=True).start()
 
 #Spotify
-SPOTIPY_CLIENT_ID = "daeb14b53cb84861b1fc2f48808cea01"
-SPOTIPY_CLIENT_SECRET = "78fcd9c882dd43469987442a05db034e"
+SPOTIPY_CLIENT_ID = "SPOTIPY_CLIENT_ID"
+SPOTIPY_CLIENT_SECRET = "SPOTIPY_CLIENT_SECRET"
 SPOTIPY_REDIRECT_URI = "http://127.0.0.1:8888/callback"
 SCOPE = "playlist-read-private"
 
