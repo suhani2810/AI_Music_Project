@@ -1,0 +1,10 @@
+opencv-python
+tensorflow
+keras
+deepface
+spotipy
+pandas
+matplotlib
+pillow
+pyttsx3
+colorama
